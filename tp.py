@@ -1,7 +1,6 @@
 from qiskit_ibm_runtime import QiskitRuntimeService
  
 QiskitRuntimeService.save_account(
-  token="ca94ab6220519d36b45ee7ee4ca3ea9a30859a4283a5fcb1dd644e47a2a589272f57da82b3ab6fd68354201a7e804984533ac7078e40370258a358de14363e43",
   channel="ibm_quantum" # `channel` distinguishes between different account types
 )
 
